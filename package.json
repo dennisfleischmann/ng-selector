@@ -1,7 +1,7 @@
 {
-  "name": "ng-selenium-selector",
-  "version": "1.0.0",
-  "description": "Angular Selenium Selector",
+  "name": "ng-selector",
+  "version": "1.0.1",
+  "description": "Angular Selector",
   "main": "index.js",
   "scripts": {
     "transpile": "ngc",

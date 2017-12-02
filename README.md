@@ -1,5 +1,5 @@
-# ng-selenium-selector
-This repository will help angular projects to add attributes to an element based on the host
+# ng-selector
+This repository will help angular projects to add name attributes based on the host module to an element.
 
 ```javascript
 import { NgSelectorModule } from 'ng-selector';
@@ -9,7 +9,7 @@ import { NgSelectorModule } from 'ng-selector';
 
 ```
 <custom-module>
-	<my-button ng-selector name="login"></my-component>
+	<my-button ng-selector selector-name="login"></my-component>
 </custom-module
 ```
 
@@ -17,7 +17,7 @@ import { NgSelectorModule } from 'ng-selector';
 
 ```
 <custom-module>
-	<my-component selector="custom-module-login"></my-component>
+	<my-component name="custom-module-login"></my-component>
 </custom-module
 ```
 

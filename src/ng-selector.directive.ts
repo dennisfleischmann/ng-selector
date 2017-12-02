@@ -18,7 +18,10 @@ export class NgSelectorDirective implements OnInit {
   }
 
   ngOnInit() {
-    if (this.element.nativeElement.name || this.element.nativeElement.getAttribute('seleniumSelectorName')) {
+    /**
+     * dont override existing name attribute
+     */
+    if (this.element.nativeElement.name) {
       return;
     }
 
@@ -27,9 +30,9 @@ export class NgSelectorDirective implements OnInit {
 
     const normalizedComponentName = this.snake_case(componentName, '-');
 
-    const selectorName = this.element.nativeElement.getAttribute('seleniumSelectorName');
+    const componentNameAttribute = this.element.nativeElement.getAttribute('selector-name');
 
-    const nameAttribute = `${normalizedComponentName}-${this.snake_case(selectorName, '-')}`;
+    const nameAttribute = `${normalizedComponentName}-${this.snake_case(componentNameAttribute, '-')}`;
 
     this.renderer.setElementAttribute(this.element.nativeElement, 'name', nameAttribute);
   }
