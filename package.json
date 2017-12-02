@@ -1,6 +1,6 @@
 {
   "name": "ng-selenium-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Angular Selector",
   "main": "dist/src/index.js",
   "scripts": {
