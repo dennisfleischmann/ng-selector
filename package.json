@@ -2,7 +2,7 @@
   "name": "ng-selenium-tools",
   "version": "1.0.3",
   "description": "Angular Selector",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "transpile": "ngc",
     "package": "rollup -c",
