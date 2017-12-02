@@ -1,6 +1,6 @@
 {
   "name": "ng-selenium-tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Angular Selector",
   "main": "dist/index.js",
   "scripts": {
@@ -29,5 +29,7 @@
   "dependencies": {
     "@angular/core": "^5.0.5"
   },
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ]
 }
