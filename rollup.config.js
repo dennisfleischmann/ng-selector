@@ -1,6 +1,6 @@
 export default {
-  entry: 'dist/index.js',
-  dest: 'dist/bundles/ng-selector.module.umd.js',
+  entry: 'dist/src/index.js',
+  dest: 'dist/src/bundles/ng-selector.module.umd.js',
   sourceMap: false,
   format: 'umd',
   moduleName: 'ng.ng-selector',
