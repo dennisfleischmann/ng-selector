@@ -1,8 +1,8 @@
 {
-  "name": "ng-selector",
+  "name": "ng-selenium-tools",
   "version": "1.0.1",
   "description": "Angular Selector",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "transpile": "ngc",
     "package": "rollup -c",
