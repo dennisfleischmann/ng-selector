@@ -5,7 +5,7 @@ This repository will help angular projects to add attributes to an element based
 import { NgSelectorModule } from 'ng-selector';
 ```
 
-#Usage
+# usage
 
 ```
 <custom-module>
@@ -13,7 +13,7 @@ import { NgSelectorModule } from 'ng-selector';
 </custom-module
 ```
 
-##Html output
+## html output
 
 ```
 <custom-module>
