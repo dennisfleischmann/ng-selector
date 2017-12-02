@@ -22,7 +22,7 @@ import { NgSelectorModule } from 'ng-selector';
 ```
 
 
-Colons can be used to align columns.
+## Module Details
 
 | Features        |            | Description  |
 | ------------- |:-------------:| -----:|
