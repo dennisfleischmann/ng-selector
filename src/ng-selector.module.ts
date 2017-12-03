@@ -3,7 +3,8 @@ import { NgSelectorDirective } from './ng-selector.directive';
 
 
 @NgModule({
-  declarations: [NgSelectorDirective]
+  declarations: [NgSelectorDirective],
+  exports: [NgSelectorDirective]
 })
 export class NgSelectorModule { }
 
