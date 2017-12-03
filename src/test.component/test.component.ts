@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
+  selector: 'test-component',
   template: `<div>
   Hello with title:
       <ng-content></ng-content>
