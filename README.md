@@ -1,9 +1,13 @@
 # ng-selector
+----------
+
 This repository will help angular projects to add name attributes based on the host module to an element.
 
 <a href="http://52.28.171.132:8111/viewType.html?buildTypeId=NgSelector_Build&guest=1">
 <img src="http://52.28.171.132:8111/app/rest/builds/buildType(id:NgSelector_Build)/statusIcon"/>
 </a>
+----------
+
 
 ```javascript
 import { NgSelectorModule } from 'ng-selector';
